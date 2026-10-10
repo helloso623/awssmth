@@ -1,0 +1,80 @@
+{
+  "ok": true,
+  "tests": 4,
+  "optimizer_steps": 0,
+  "scope": "small deterministic host component parity; no pretrained weights or Trainium execution",
+  "metrics": [
+    {
+      "nonzero_adapters": true,
+      "adapters_enabled": false,
+      "expert_chunk_size": 1,
+      "max_forward_abs_error": 1.7763568394002505e-15,
+      "gradient_errors": {
+        "input": 8.881784197001252e-16,
+        "router_weight": 3.552713678800501e-15,
+        "router_bias": 3.552713678800501e-15,
+        "gate_bias": 4.440892098500626e-16,
+        "down_bias": 4.440892098500626e-16,
+        "gate_base": 1.7763568394002505e-15,
+        "down_base": 3.552713678800501e-15
+      }
+    },
+    {
+      "nonzero_adapters": true,
+      "adapters_enabled": true,
+      "expert_chunk_size": 1,
+      "max_forward_abs_error": 3.552713678800501e-15,
+      "gradient_errors": {
+        "input": 5.329070518200751e-15,
+        "router_weight": 5.329070518200751e-15,
+        "router_bias": 3.552713678800501e-15,
+        "gate_bias": 8.881784197001252e-16,
+        "down_bias": 4.440892098500626e-16,
+        "gate_A": 6.661338147750939e-16,
+        "gate_B": 7.105427357601002e-15,
+        "down_A": 9.992007221626409e-16,
+        "down_B": 1.4210854715202004e-14,
+        "gate_base": 3.552713678800501e-15,
+        "down_base": 4.440892098500626e-15
+      }
+    },
+    {
+      "nonzero_adapters": true,
+      "adapters_enabled": true,
+      "expert_chunk_size": 4,
+      "max_forward_abs_error": 3.552713678800501e-15,
+      "gradient_errors": {
+        "input": 5.329070518200751e-15,
+        "router_weight": 5.329070518200751e-15,
+        "router_bias": 3.552713678800501e-15,
+        "gate_bias": 8.881784197001252e-16,
+        "down_bias": 2.220446049250313e-16,
+        "gate_A": 6.661338147750939e-16,
+        "gate_B": 7.105427357601002e-15,
+        "down_A": 9.992007221626409e-16,
+        "down_B": 1.4210854715202004e-14,
+        "gate_base": 3.552713678800501e-15,
+        "down_base": 4.440892098500626e-15
+      }
+    },
+    {
+      "nonzero_adapters": false,
+      "adapters_enabled": true,
+      "expert_chunk_size": 1,
+      "max_forward_abs_error": 1.7763568394002505e-15,
+      "gradient_errors": {
+        "input": 8.881784197001252e-16,
+        "router_weight": 1.7763568394002505e-15,
+        "router_bias": 3.552713678800501e-15,
+        "gate_bias": 4.440892098500626e-16,
+        "down_bias": 4.440892098500626e-16,
+        "gate_A": 0.0,
+        "gate_B": 2.220446049250313e-15,
+        "down_A": 0.0,
+        "down_B": 2.1316282072803006e-14,
+        "gate_base": 1.7763568394002505e-15,
+        "down_base": 8.881784197001252e-16
+      }
+    }
+  ]
+}

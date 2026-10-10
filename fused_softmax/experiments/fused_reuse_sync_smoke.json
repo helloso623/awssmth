@@ -1,0 +1,702 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 1.1920928955078125e-06,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 3.2782554626464844e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 7.487833499908447e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 2.9243528842926025e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.2040138244628906e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 6.007030606269836e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 2.3399479687213898e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 4.4330954551696777e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.2040138244628906e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 7.729977369308472e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 2.0489096641540527e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 3.501772880554199e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 6.705522537231445e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 2.086162567138672e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 5.513429641723633e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 1.6205012798309326e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 2.7939677238464355e-09,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "normal",
+      "ok": true,
+      "max_abs": 1.0654330253601074e-06,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "large",
+      "ok": true,
+      "max_abs": 1.2040138244628906e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "identical rows",
+      "ok": true,
+      "max_abs": 3.0547380447387695e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "zeros",
+      "ok": true,
+      "max_abs": 0.0,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 7.152557373046875e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 2.086162567138672e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        1,
+        7
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 8.642673492431641e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        7,
+        1
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 2.086162567138672e-06,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 7.487833499908447e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        8,
+        16
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 2.995133399963379e-06,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 4.76837158203125e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 2.7939677238464355e-09,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        31,
+        127
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 2.1420419216156006e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        1
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 1.8440186977386475e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 2.3399479687213898e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 3.213062882423401e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 3.110617399215698e-07,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 2.0489096641540527e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 3.213062882423401e-08,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "fresh_random",
+      "ok": true,
+      "max_abs": 2.5033950805664062e-06,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "constant",
+      "ok": true,
+      "max_abs": 0.0,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "dominant",
+      "ok": true,
+      "max_abs": 1.1980533599853516e-05,
+      "detail": null
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "label": "extreme_finite",
+      "ok": true,
+      "max_abs": 7.487833499908447e-07,
+      "detail": null
+    }
+  ],
+  "timings": [
+    {
+      "shape": [
+        128,
+        512
+      ],
+      "mean_us_repeats": [
+        202.7585,
+        195.4655,
+        196.9001
+      ],
+      "latency_us": 196.9001
+    },
+    {
+      "shape": [
+        129,
+        513
+      ],
+      "mean_us_repeats": [
+        224.8756,
+        220.0241,
+        225.4203
+      ],
+      "latency_us": 224.8756
+    },
+    {
+      "shape": [
+        257,
+        61
+      ],
+      "mean_us_repeats": [
+        161.02960000000002,
+        160.90140000000002,
+        161.40839999999997
+      ],
+      "latency_us": 161.02960000000002
+    }
+  ],
+  "timing": "Trainium synchronous invocation wall time in microseconds: median of three means; includes input/output transfers, allocation, and runtime overhead; excludes compilation and model loading",
+  "timing_version": 2,
+  "cores": [
+    0,
+    1
+  ],
+  "lnc": 2,
+  "iterations": 10,
+  "warmup": 20,
+  "repeats": 3,
+  "seed": 911,
+  "unseen_shapes": false,
+  "speedups": [
+    1.0164133994853228,
+    1.0201102298337392,
+    1.0266565898443516
+  ],
+  "reward": 1.0210512967414371,
+  "source_sha256": "79d706877f5c4eceb54929c73424579f2331a1facbed113d597af9f22001be7f"
+}

@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "component": "small deterministic GPT-OSS packed experts, rank32",
+  "cores": [
+    0
+  ],
+  "lnc": 2,
+  "optimizer_steps": 0,
+  "pretrained_weights_loaded": false,
+  "compile_and_first_forward_backward_s": 9.614107289002277,
+  "warm_forward_backward_s": [
+    0.004630773997632787,
+    0.004453549991012551,
+    0.004421191988512874,
+    0.004371627001091838,
+    0.004422321988386102
+  ],
+  "timing": "synchronous XLA forward/backward wall time; excludes first compilation; inputs resident",
+  "hbm_memory_info": {
+    "bytes_used": 73626928,
+    "bytes_limit": 25769803776,
+    "peak_bytes_used": -1
+  },
+  "peak_host_rss_kib": 762432,
+  "max_forward_abs_error": 1.1444091796875e-05,
+  "gradient_errors": {
+    "input": 5.4836273193359375e-06,
+    "router_weight": 1.239776611328125e-05,
+    "router_bias": 5.811452865600586e-06,
+    "gate_A": 1.043081283569336e-06,
+    "gate_B": 1.5735626220703125e-05,
+    "down_A": 4.291534423828125e-06,
+    "down_B": 3.814697265625e-05
+  },
+  "routing_autograd_audit": {
+    "logits_requires_grad": true,
+    "topk_values_requires_grad": false,
+    "softmax_requires_grad": false,
+    "scatter_inplace_requires_grad": false
+  }
+}

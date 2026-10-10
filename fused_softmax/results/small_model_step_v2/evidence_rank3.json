@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "rank": 3,
+  "pretrained": false,
+  "optimizer_steps": 1,
+  "sequence": 8,
+  "test_type": "short execution validation, not full kernel rollout",
+  "step_s": 22.456741473986767,
+  "memory": [
+    {
+      "stage": "weights",
+      "bytes_used": 89332580,
+      "bytes_limit": 25769803776,
+      "peak_bytes_used": -1
+    },
+    {
+      "stage": "backward",
+      "bytes_used": 92528904,
+      "bytes_limit": 25769803776,
+      "peak_bytes_used": -1
+    },
+    {
+      "stage": "optimizer",
+      "bytes_used": 93371960,
+      "bytes_limit": 25769803776,
+      "peak_bytes_used": -1
+    }
+  ],
+  "parameter_max_change": 3.99999953515362e-05,
+  "changed_tensors": 13,
+  "checkpoint": "small_model_step_v2/adapter_rank3.pt",
+  "reload_exact": true,
+  "next_token_from_updated_checkpoint": [
+    [
+      101
+    ]
+  ],
+  "base_parameters": 29978,
+  "adapter_parameters": 53248
+}

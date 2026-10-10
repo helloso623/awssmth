@@ -1,0 +1,64 @@
+{
+  "2": {
+    "tp": 2,
+    "sequence": 128,
+    "microbatch": 1,
+    "base_parameters_per_core": 10459695936,
+    "frozen_base_bytes_per_core": 20923817088,
+    "router_fp32_extra_bytes": 4425216,
+    "adapter_parameters_per_core": 263421952,
+    "fp32_adapter_gradient_adam_bytes_per_core": 4214751232,
+    "kv_cache_bytes_per_core": 3145728,
+    "reserves_bytes_per_core": {
+      "activations": 536870912,
+      "temporaries": 1073741824,
+      "collective_buffers": 268435456,
+      "runtime": 268435456
+    },
+    "estimated_peak_bytes_per_core": 27289197696,
+    "usable_hbm_bytes_per_core": 25769803776,
+    "reference_policy": "Sequential restore of immutable initial adapter checkpoint; same enabled-adapter execution path; CPU checkpoint storage, no duplicate base",
+    "loading": "CPU dequantization one expert shard at a time; no full BF16 host model or device dequant copies",
+    "peak_status": "Planning estimate, not measured; compiler scratch and checkpoint overlap remain to be measured",
+    "placement": {
+      "expert": "gate paired outputs/down intermediate sharded",
+      "attention": "Q/K/V outputs and O inputs sharded; O bias replicated",
+      "embedding": "vocabulary sharded",
+      "head": "vocabulary sharded",
+      "router": "replicated",
+      "norms": "replicated",
+      "adapters": "column A replicated/B output-sharded; row A input-sharded/B replicated"
+    }
+  },
+  "4": {
+    "tp": 4,
+    "sequence": 128,
+    "microbatch": 1,
+    "base_parameters_per_core": 5232165312,
+    "frozen_base_bytes_per_core": 10468755840,
+    "router_fp32_extra_bytes": 4425216,
+    "adapter_parameters_per_core": 206959616,
+    "fp32_adapter_gradient_adam_bytes_per_core": 3311353856,
+    "kv_cache_bytes_per_core": 1572864,
+    "reserves_bytes_per_core": {
+      "activations": 536870912,
+      "temporaries": 1073741824,
+      "collective_buffers": 268435456,
+      "runtime": 268435456
+    },
+    "estimated_peak_bytes_per_core": 15929166208,
+    "usable_hbm_bytes_per_core": 25769803776,
+    "reference_policy": "Sequential restore of immutable initial adapter checkpoint; same enabled-adapter execution path; CPU checkpoint storage, no duplicate base",
+    "loading": "CPU dequantization one expert shard at a time; no full BF16 host model or device dequant copies",
+    "peak_status": "Planning estimate, not measured; compiler scratch and checkpoint overlap remain to be measured",
+    "placement": {
+      "expert": "gate paired outputs/down intermediate sharded",
+      "attention": "Q/K/V outputs and O inputs sharded; O bias replicated",
+      "embedding": "vocabulary sharded",
+      "head": "vocabulary sharded",
+      "router": "replicated",
+      "norms": "replicated",
+      "adapters": "column A replicated/B output-sharded; row A input-sharded/B replicated"
+    }
+  }
+}

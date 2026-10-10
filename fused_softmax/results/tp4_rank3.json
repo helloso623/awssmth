@@ -1,0 +1,66 @@
+{
+  "ok": true,
+  "rank": 3,
+  "tp": 4,
+  "optimizer_steps": 1,
+  "pretrained_weights_loaded": false,
+  "forward_max_abs": 1.2293457984924316e-07,
+  "gradient_errors": {
+    "gate_lora_A": 3.3527612686157227e-08,
+    "gate_lora_B": 2.980232238769531e-07,
+    "down_lora_A": 2.2351741790771484e-08,
+    "down_lora_B": 2.728775143623352e-07
+  },
+  "parameter_changes": {
+    "gate_lora_A": 4.00543212890625e-05,
+    "gate_lora_B": 4.00003045797348e-05,
+    "down_lora_A": 4.00543212890625e-05,
+    "down_lora_B": 4.00003045797348e-05
+  },
+  "compile_and_backward_s": 10.139248335006414,
+  "hbm": {
+    "bytes_used": 90481860,
+    "bytes_limit": 25769803776,
+    "peak_bytes_used": -1
+  },
+  "placement": {
+    "gate_up_proj": [
+      4,
+      8,
+      4
+    ],
+    "gate_up_proj_bias": [
+      4,
+      4
+    ],
+    "down_proj": [
+      4,
+      2,
+      8
+    ],
+    "down_proj_bias": [
+      4,
+      8
+    ],
+    "gate_lora_A": [
+      4,
+      8,
+      32
+    ],
+    "gate_lora_B": [
+      4,
+      32,
+      4
+    ],
+    "down_lora_A": [
+      4,
+      2,
+      32
+    ],
+    "down_lora_B": [
+      4,
+      32,
+      8
+    ]
+  }
+}
